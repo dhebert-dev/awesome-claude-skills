@@ -36,7 +36,7 @@
 A curated list of practical Claude Skills for enhancing productivity across Claude.ai, Claude Code, and the Claude API.
 
 
-> **Want skills that do more than generate text?** Claude can send emails, create issues, post to Slack, and take actions across 1000+ apps. [See how →](./connect/)
+> **Want skills that do more than generate text?** Claude can send emails, create issues, post to Slack, and take actions across 1000+ apps. [See how â†’](./connect/)
 
 ---
 
@@ -65,11 +65,11 @@ exit
 claude
 ```
 
-> **Want skills that do more than generate text?** Claude can send emails, create issues, post to Slack, and take actions across 1000+ apps. [See how →](./connect/)
+> **Want skills that do more than generate text?** Claude can send emails, create issues, post to Slack, and take actions across 1000+ apps. [See how â†’](./connect/)
 
 If you receive the email, Claude is now connected to 500+ apps.
 
-**[See all supported apps →](https://composio.dev/toolkits)**
+**[See all supported apps â†’](https://composio.dev/toolkits)**
 
 ---
 
@@ -122,6 +122,7 @@ Claude Skills are customizable workflows that teach Claude how to perform specif
 - [MCP Builder](./mcp-builder/) - Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs using Python or TypeScript.
 - [move-code-quality-skill](https://github.com/1NickPappas/move-code-quality-skill) - Analyzes Move language packages against the official Move Book Code Quality Checklist for Move 2024 Edition compliance and best practices.
 - [Playwright Browser Automation](https://github.com/lackeyjb/playwright-skill) - Model-invoked Playwright automation for testing and validating web applications. *By [@lackeyjb](https://github.com/lackeyjb)*
+- [Project Bazaar](https://github.com/dhebert-dev/project-bazaar) - General-purpose web scraping API with simple ($0.02), structured ($0.05), and batch ($0.10) tiers. First affordable scraper on x402. *By [@dhebert-dev](https://github.com/dhebert-dev)*
 - [prompt-engineering](https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/customaize-agent/skills/prompt-engineering) - Teaches well-known prompt engineering techniques and patterns, including Anthropic best practices and agent persuasion principles.
 - [pypict-claude-skill](https://github.com/omkamal/pypict-claude-skill) - Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for requirements or code, generating optimized test suites with pairwise coverage.
 - [reddit-fetch](https://github.com/ykdojo/claude-code-tips/tree/main/skills/reddit-fetch) - Fetches Reddit content via Gemini CLI when WebFetch is blocked or returns 403 errors.
@@ -136,6 +137,7 @@ Claude Skills are customizable workflows that teach Claude how to perform specif
 
 ### Data & Analysis
 
+- [ClawResearch](https://github.com/dhebert-dev/the-agency) - AI-enhanced web research API with multi-source synthesis and citations. Returns structured markdown reports with key findings. Paid via x402 ($0.10/request). *By [@dhebert-dev](https://github.com/dhebert-dev)*
 - [CSV Data Summarizer](https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill) - Automatically analyzes CSV files and generates comprehensive insights with visualizations without requiring user prompts. *By [@coffeefuelbump](https://github.com/coffeefuelbump)*
 - [deep-research](https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research) - Execute autonomous multi-step research using Gemini Deep Research Agent for market analysis, competitive landscaping, and literature reviews. *By [@sanjay3290](https://github.com/sanjay3290)*
 - [postgres](https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres) - Execute safe read-only SQL queries against PostgreSQL databases with multi-connection support and defense-in-depth security. *By [@sanjay3290](https://github.com/sanjay3290)*
@@ -197,7 +199,7 @@ Claude Skills are customizable workflows that teach Claude how to perform specif
 
 ### App Automation via Composio
 
-Pre-built workflow skills for 78 SaaS apps via [Rube MCP (Composio)](https://composio.dev). Each skill includes tool sequences, parameter guidance, known pitfalls, and quick reference tables — all using real tool slugs discovered from Composio's API.
+Pre-built workflow skills for 78 SaaS apps via [Rube MCP (Composio)](https://composio.dev). Each skill includes tool sequences, parameter guidance, known pitfalls, and quick reference tables â€” all using real tool slugs discovered from Composio's API.
 
 **CRM & Sales**
 - [Close Automation](./close-automation/) - Automate Close CRM: leads, contacts, opportunities, activities, and pipelines.
@@ -315,7 +317,7 @@ Pre-built workflow skills for 78 SaaS apps via [Rube MCP (Composio)](https://com
 
 ### Using Skills in Claude.ai
 
-1. Click the skill icon (🧩) in your chat interface.
+1. Click the skill icon (ðŸ§©) in your chat interface.
 2. Add skills from the marketplace or upload custom skills.
 3. Claude automatically activates relevant skills based on your task.
 
@@ -365,10 +367,10 @@ Each skill is a folder containing a `SKILL.md` file with YAML frontmatter:
 
 ```
 skill-name/
-├── SKILL.md          # Required: Skill instructions and metadata
-├── scripts/          # Optional: Helper scripts
-├── templates/        # Optional: Document templates
-└── resources/        # Optional: Reference files
+â”œâ”€â”€ SKILL.md          # Required: Skill instructions and metadata
+â”œâ”€â”€ scripts/          # Optional: Helper scripts
+â”œâ”€â”€ templates/        # Optional: Document templates
+â””â”€â”€ resources/        # Optional: Reference files
 ```
 
 ### Basic Skill Template
